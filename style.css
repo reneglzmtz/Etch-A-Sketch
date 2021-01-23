@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+h2 {
+    text-align: center;
+}
+#grid {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.row {
+    margin: auto;
+    width: 320px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(188, 191, 194);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black{
+    background-color: black;
+}
