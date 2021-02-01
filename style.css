@@ -23,7 +23,7 @@ h2 {
     width: 500px;
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .centered {
